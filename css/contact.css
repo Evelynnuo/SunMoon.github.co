@@ -1,0 +1,91 @@
+@charset "UTF-8";
+/*global*/
+.navbar .navbar-default{
+padding-top: 50px solid rgba(173,212,251,1.00);
+}
+
+.whyus_title{
+	font-size: 168px;
+	margin-top: 359px;
+	color:rgba(31,31,31,1.00)
+	font-style: normal;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	color: rgba(232,112,59,1.00);
+	text-shadow: 11px 0px 19px rgba(255,255,255,0.96);
+	font-weight: normal;
+	margin-left: -49px;
+}
+
+.contact {
+	height: auto;
+}
+.student_landlords{
+	background-color:#F8F8F8;
+}
+.SLicons{
+	background-color: rgba(255,255,255,1.00);
+	border: 22px solid rgba(248,248,248,1.00);
+	padding-top: 0px;
+}
+.submitform{
+	border-right: 2px solid
+rgba(114,114,114,0.30);}
+#username {
+	border: 2px solid rgba(114,114,114,0.30);
+	width: 60%;
+	border-radius: 9px;
+	height: 36px;
+}
+.message{
+	border: 2px solid rgba(114,114,114,0.30);
+	width: 60%;
+	border-radius: 9px;
+	height: 50px;
+}
+.sunmoonwords{
+	border: rgba(255,255,255,1.00);
+}
+.getintouch_submit{
+	width: 147px;
+}
+.touch{
+	line-height: 25px;
+}
+
+.getintouch{
+	height:auto;
+	background-color:rgba(218,109,51,1.00);
+	
+}
+.social_form h3{
+	color: rgba(255,255,255,1.00);
+	border-right: 2px solid rgba(255,255,255,1.00);
+}
+.social_form p1{
+	color: rgba(255,255,255,1.00);
+}
+.trust_text{
+	
+}
+.social_form p {
+	font-size: 17px;
+	color: rgba(255,255,255,1.00);
+}
+.social_form h4{
+	color:rgba(75,58,210,0.85);
+}
+@media(max-width:767px){
+
+
+}
+@media(min-width:769px){
+	
+}
+@media(min-width:992px){
+
+}
+
+
+@media(min-width:1200px){
+
+}

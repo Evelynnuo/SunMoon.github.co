@@ -1,0 +1,142 @@
+@charset "UTF-8";
+@import url("FAQs.css");
+.facilities{
+	height:400px;
+	background-color: rgba(218,218,218,0.75)
+}
+.reviews{
+	height:400px;
+	background: rgba(173,212,251,1.00);
+}
+.navbar .navbar-default{
+padding-top: 50px solid rgba(173,212,251,1.00);
+}
+.whyusnav{
+	
+	background-image:url(whyusuus.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	height:900px;
+}
+.whyus_title{
+	font-size: 168px;
+	margin-top: 359px;
+	color:rgba(31,31,31,1.00);
+	font-style: normal;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	color: rgba(232,112,59,1.00);
+	text-shadow: 11px 0px 19px rgba(255,255,255,0.96);
+	font-weight: normal;
+	margin-left: -49px;
+}
+.whysunmoon {
+	height: auto;
+}
+.intheroom p{
+	font-family: 'Gothic A1', sans-serif;
+	margin-top: 97px;
+	font-size: 18px;
+    }
+.intheroom h3{
+	font-size: 23px;
+}
+.dedicated h3{
+	font-size: 23px;
+}
+.dedicated p{
+	font-family: 'Gothic A1', sans-serif;
+	margin-top: 97px;
+	font-size: 18px;
+    }
+.what_is_include p{
+	font-family: 'Gothic A1', sans-serif;
+}
+.what_is_include {
+	background-color:rgba(243,204,173,0.50)
+}
+.orange_line{
+	border-bottom:1px solid  rgba(229,98,57,1.00);
+}
+.sun{
+	float: right;
+}
+.moon{}
+.house{	}
+.logo_line{
+	padding-top: 0px;
+	margin-top: 1px;
+}
+
+@media(max-width:767px){
+.whyus_title{
+	font-size: 139px;
+	margin-top: 182px;
+	color:rgba(31,31,31,1.00)
+	font-style: normal;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	color: rgba(232,112,59,1.00);
+	text-shadow: 11px 0px 19px rgba(255,255,255,0.96);
+	font-weight: normal;}
+.intheroom p{
+	font-family: 'Gothic A1', sans-serif;
+	margin-top: 15px;
+	font-size: 17px;
+    }
+.dedicated h3{
+	font-size: 23px;
+}
+.dedicated p{
+	font-family: 'Gothic A1', sans-serif;
+	margin-top: 15px;
+	font-size: 17px;
+    }
+}
+@media(min-width:769px){
+.intheroom p{
+	font-family: 'Gothic A1', sans-serif;
+	margin-top: 25px;
+	font-size: 19px;
+    }
+.intheroom h3{
+	margin-top: 27px;
+	font-family: 'Signika', sans-serif;
+	font-size: 26px;
+}
+.dedicated h3{
+	font-size: 23px;
+}
+.dedicated p{
+	font-family: 'Gothic A1', sans-serif;
+	margin-top: 25px;
+	font-size: 19px;
+    }
+
+}
+@media(min-width:992px){
+.intheroom p{
+	font-family: 'Gothic A1', sans-serif;
+	margin-top: 43px;
+	font-size: 21px;
+    }
+.intheroom h3{
+	margin-top: 87px;
+}
+.dedicated h3{
+	font-size: 29px;
+	margin-top: 110px;
+}
+.dedicated p{
+	font-family: 'Gothic A1', sans-serif;
+	margin-top: 73px;
+	font-size: 20px;
+    }
+}
+
+
+@media(min-width:1200px){
+.intheroom h3{
+	
+}
+}

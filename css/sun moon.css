@@ -1,0 +1,375 @@
+@charset "UTF-8";
+
+
+/*global*/
+
+/*extra-elements*/
+h3 {color: rgba(229,98,57,1.00);
+	font-family: 'Signika', sans-serif;
+    font-size: 30px;}
+
+p1{
+	font-family: 'Courgette', cursive;
+	font-size: 24px;
+	color: rgba(105,105,105,0.89);
+	font-weight: normal;
+	letter-spacing: 0px;
+	line-height: normal;
+}
+p,p2{
+	font-size: 18px;}
+
+.space-50{
+	height: 50px;
+}
+.space-70{
+	height: 70px;
+}
+.space-100{
+	height: 100px;}
+
+
+/*nav*/
+.logo{
+	height: auto;
+	width: 160px;
+	float: left;
+	margin-top: 2px;
+	margin-left: 20px;
+    margin-bottom:-22px;}
+/*golbal_background*/
+.trynavback{
+	background-image:url(sunmoon.jpg);
+	height: 900px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center; 
+	background-size:cover;
+    z-index: -5px;}
+
+/*global navbar*/
+.navbar{
+	background-color:rgba(255,255,255,0.88);}
+.navbar-collapse {
+	font-size: large;
+    margin-right:10px;}
+.navbar .navbar-default{
+	background-color:rgba(255,255,255,0.88);
+}
+/*icon*/
+.glyphicon-home,
+.glyphicon-heart,
+.glyphicon-align-center,
+.glyphicon-user,
+.glyphicon-log-in{
+	color: rgba(206,103,58,1.00);
+    resize: both;
+	height: 20px;
+    width: 20px;}
+
+/*global nav_heading_title*/
+.nav__heading{
+	height: 100px;
+	width: 600px;
+	padding-top: 182px;
+	padding-left: 75px;
+	z-index: 10px;}
+.heading__1{
+	color: rgba(229,98,57,1.00);
+	font-weight: bold;
+	font-size: 51px;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	text-shadow: 4px 0px 4px rgba(116,114,114,1.00);}
+
+/*Header_search*/
+#search {
+	width: 500px;
+	height: 820px;
+	margin-top: 164px;
+	margin-right: auto;
+	margin-left: 8px;
+	margin-bottom: 0;}
+form {
+	position:relative;
+	width:300px;
+	margin:0 auto;}
+input,button {
+	border:none;
+	outline:none;}
+.box_inoput{
+	width:100%;
+	height:42px;
+	padding-left:13px;}
+.bar6 input {
+	border:2px solid rgba(229,98,57,1.00);
+	border-radius:5px;
+	background-color:rgba(255,255,255,0.78);
+	top:0;
+	right:0;}
+.bar6 button {
+	background-color: rgba(229,98,57,1.00);
+	border-radius:0 5px 5px 0;
+	width:60px;
+	top:0;
+	right:0;
+	font-size:18px;
+	color:#F9F0DA;
+	height:42px;
+	cursor:pointer;
+	position:absolute;}
+
+/*maincontant*/
+.welcome-title{margin-bottom: -30px;}
+/*about-us*/
+.aboutus {
+height: auto;
+}
+
+
+/*services-booking*/
+
+.services{
+	background-color: #F8F8F8;
+}
+.booking1,.booking2,.booking3{
+	background-color:rgba(255,255,255,1.00);
+	height: 280px;
+}
+.circlepicture{
+	border: rgba(255,255,255,1.00);
+}
+.service-par{
+	margin-top: 13px;
+	font-size: 19px;
+	font-family: 'PT Sans', sans-serif;}
+.findmore{
+	margin-top: 15px;
+	margin-bottom: -10px;
+}
+
+
+/*housebox-room*/
+.housesbox{
+	background-color: rgba(255,255,255,1.00);
+	padding-bottom: 20px;
+	margin-bottom: 50px;
+
+}
+.roomseries1_box{
+	height: 400px;
+}
+.room-250-auto{
+	text-align: center;
+	background-color: #F8F8F8;
+	padding-bottom: 20px;
+	margin-left：3%；
+	padding-top: 20px;
+	border-left: 5px solid rgba(255,255,255,1.00);
+	border-right: 5px solid rgba(251,249,249,1.00);
+	border-bottom: 5px solid rgba(206,103,58,1.00);
+	border-top: 5px solid rgba(255,255,255,1.00);
+	border-top-right-radius: 0px;
+}
+
+.room_discription{
+	height: 150px;
+}
+.housesnavbottom{
+	background-color: rgba(255,255,255,1.00);
+}
+.housefindmore{
+	margin-top: 25px;
+	margin-bottom: -10px;
+}
+
+
+
+/*swansea*/
+
+.swanseabay{
+	height:500px;
+	background-image: url(../images/Swanseabay.png);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	background-color: rgba(209,209,209,0.66);
+}
+
+.swanseaintroduce{
+	height: 329px;
+
+	border-left: 7px solid rgba(255,255,255,0.00);
+	border-right: 12px solid rgba(255,255,255,0.00);
+	border-bottom: 12px solid rgba(255,255,255,0.00);
+	border-top: 12px solid rgba(255,255,255,0.00);
+	border-radius: 42px;
+	width: 732px;
+	background-color:rgba(255,252,253,0.33);
+	margin-left: 22px;
+}
+
+.aboutswansea{
+	color: rgba(183,76,78,1.00);
+	font-family: 'Source Serif Pro', serif;
+	font-style: normal;
+	font-weight: 300;
+	font-size: xx-large;
+	text-align: center;
+	font-variant: normal;
+	width: auto;
+	margin-top: 175px;
+}
+.aboutswan{
+	height: 500px;
+	background-color: rgba(236,236,236,0.71);
+}
+
+/*getintouch*/
+.Get-in-touch{
+	background-color:#F8F8F8;
+}
+.tele {
+	text-align: center;
+	padding: 10px;
+	border:2px solid rgba(215,91,44,1.00);
+	border-style:ridge;
+	border-radius: 20px;
+    border-spacing: inherit;
+	margin: 20px;
+	font-size: 16px;
+}
+.email{
+	text-align: center;
+	padding:10px;
+	border:2px solid rgba(215,91,44,1.00);
+	border-style:ridge;
+	border-radius: 20px;
+	border-spacing: inherit;
+	margin: 20px;
+	font-size: 16px;}
+.book {
+	text-decoration-color:aliceblue;
+	background-color:rgba(219,118,80,0.86);
+	text-align: center;
+	padding: 10px;
+	border:2px solid rgba(219,118,80,0.86);
+	border-style:ridge;
+	border-radius: 20px;
+	border-spacing: inherit;
+	margin: 20px;
+	font-size: 16px;}
+.book a{
+	color:rgba(255,255,255,1.00);}
+
+/*footer*/
+.footer.getintouch{
+	height:auto;
+	background-color:rgba(218,109,51,1.00);}
+.getintouch p a{
+	color:rgba(255,255,255,1.00);
+	line-height: 30px;
+	text-decoration: none;
+	outline: none;
+	-webkit-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all  0.5s ease;
+	display: block;
+}
+.getintouch p a:hover{
+	color:rgba(22,140,230,1.00);
+	-webkit-transition:translateX(5px);
+	-ms-transition: translateX(5px);
+	-moz-transition: translateX(5px);
+	-o-transition:translateX(5px);
+	transition: translateX(5px);}
+	
+.footer_infor h3{
+	color: rgba(255,255,255,1.00);
+	border-right: 2px solid rgba(255,255,255,1.00);
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 24px;
+}
+.footer_infor  p {
+	font-size: 17px;
+	color: rgba(255,255,255,1.00);
+}
+.private{
+	border-top: 1px solid rgba(255,255,255,0.70);
+	margin-top: 2px;
+}
+
+@media(max-width:768px){
+/*background*/	
+.trynavback{
+    height: 500px;}
+	
+/*nav_heading_title*/
+.heading__1{
+	color: rgba(229,98,57,1.00);
+	font-size: 5vw;	
+	font-weight: bold;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;}
+	
+/*search*/ 
+input {
+	width:100%;
+	height:42px;
+	padding-left:13px;
+}
+
+/*swanseabay*/	
+.swanseabay{
+	height:500px;}
+.aboutswansea{
+	margin-top: 126px;
+	font-size: 195%;}
+}
+
+@media(min-width:768px){
+
+
+.navbar-nav {
+	font-size: large;
+	float: right;}
+	
+.room-250-auto{
+line-height: 400px;}
+
+.aboutswansea{
+	padding-top: 0px;
+	margin-top: 123px;}
+} 
+
+@media(min-width:992px){	
+	
+/*nav*/
+.navbar-nav {
+	font-size: large;
+	float: right;
+}
+
+.aboutswansea{
+margin-top: 176px;}
+
+/*FQAs*/
+.FQAstext
+{margin-top: 79px;}
+
+}
+
+
+
+@media(min-width:1200px){
+
+.p1 {left:20px;}
+/*nav*/	
+.navbar-nav{
+float:right;}
+/*FQAs*/
+.FQAstext
+{margin-top: 79px;}
+}

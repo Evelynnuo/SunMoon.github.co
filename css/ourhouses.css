@@ -1,0 +1,145 @@
+@charset "UTF-8";
+/*global*/
+.house1 h4{
+	color: rgba(204,58,60,1.00);
+	font-size: 18px;
+}
+p {
+	font-size: 18px;
+}
+p.week{
+	border-top: 2px solid rgba(203,203,203,0.65);}
+p.time{
+	border-bottom: 2px solid rgba(203,203,203,0.65);}
+p.one{
+	height: 80px;
+	overflow: scroll;}
+#content p{
+	font-size: 15px;
+}
+#content h3{
+	font-size: 25px;
+}
+.gallery{
+	width: 100%;
+}
+.whitepack_main{
+	background-color: rgba(255,255,255,1.00);
+}
+.housesnav{
+	background-image:url(housese.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	height:900px;
+}
+.houses_title{
+	font-size: 168px;
+	margin-top: 350px;
+	color: rgba(206,103,58,1.00);
+	font-style: normal;
+font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	text-shadow: 11px 0px 19px rgba(246,246,246,1.00);
+}
+#wrap{
+	overflow:hidden;
+    *zoom:1;
+    }
+.sidebar-content .container{
+	height: auto;
+}
+.sidebar{
+	float:left; clear:both; width:200px;}
+.fiter{
+	border-bottom: 2px;
+	border-bottom-style: solid;
+	border-color: rgba(204,204,204,1.00);
+}
+.price{
+	margin-left: 15px;
+	border: 2px;
+}
+
+#content{
+	margin-left: 240px;}
+
+.house1{
+	margin: 20px;
+     border:2px solid rgba(206,202,202,0.71);	
+     height: auto;}
+.house1_des{
+	border-bottom: 2px solid rgba(203,203,203,0.65);
+}
+.roon1button{
+	width: 120px;
+	margin-left: 100px;
+	margin-top: 20px;
+	height: 35px;
+	background-color: rgba(255,255,255,0.84);
+	color: rgba(172,82,58,1.00);
+}
+.orange_line{
+	border-bottom:1px solid  rgba(229,98,57,1.00);
+}
+.sun{
+	float: right;
+}
+.moon{}
+.house{	}
+.logo_line{
+	padding-top: 0px;
+	margin-top: 1px;
+}
+.Gallery{
+
+	background-color:rgba(255,239,217,0.88);
+}
+.galleryh3{
+	margin-top: -10px;
+}
+.findmore{
+	margin-top: 20px;
+}
+@media(max-width:767px){
+	.houses_title{
+	font-size: 119px;
+	margin-top: 178px;
+	}
+	#content{
+	margin-left: 1px;}
+
+	.roon1button{
+	width: 170px;
+	margin-left: 273px;
+	margin-top: -106px;}
+}
+
+@media(min-width:768px){
+.roon1button{
+	width: 120px;
+	margin-left: 164px;
+	margin-top: -115px;
+}
+}
+	
+
+
+
+@media(min-width:992px){
+
+.house1{ height:350px;}
+.roon1button{
+	width: 120px;
+	margin-left: 100px;
+	margin-top: 20px;}
+}
+
+@media(min-width:1200px)
+{
+.roon1button{
+	width: 120px;
+	margin-left: 150px;
+	margin-top: -22px;
+}	
+}
